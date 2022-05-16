@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import data from '../appData';
 import bar from '../assets/Group 10.svg';
 
 const Filter = () => {
-
+// eslint-disable-next-line
   const [hover, setHover] = useState(null);
+// eslint-disable-next-line
   const [days, setDays] = useState<any>(data);
 
   const FilterDiv = styled.div`
